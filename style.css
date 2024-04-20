@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+#canvas1{
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#floor_title_1,
+#floor_title_2,
+#floor_title_3,
+#floor_title_4,
+#floor_title_5,
+#floor_title_6,
+#floor_title_7,
+#floor_title_8,
+#floor_title_9,
+#player,
+#chest,
+#heartsteel,
+#boss,
+#boss1,
+#boss2,
+#boss3,
+#lp,
+#gold,
+#pokeball,
+#chestsound{
+    display: none;
+}
